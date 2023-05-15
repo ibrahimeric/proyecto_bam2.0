@@ -1,0 +1,40 @@
+html, .body{
+    margin: 100;
+    padding: 100;
+}
+
+.body{
+    width: 100%;
+    letter-spacing: 0.03em;
+    line-height: 1.5;
+    background-color: rgba(251, 17, 251, 0.362);
+}
+
+h1{
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    font-weight: 100;
+}
+
+h2{
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    font-weight: 100;
+}
+
+.container{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    background-color: rgba(143, 43, 143, 0.362);
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
