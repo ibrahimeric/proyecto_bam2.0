@@ -4,10 +4,12 @@
     height: 80px;
     padding: 1rem 3rem 1rem 3rem;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction:row;
     align-items: center;
-    position: relative; /* cambiar a fixed */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
 }
 
 .Hnav .Hnavlogo img {
@@ -21,20 +23,19 @@
 
 .Hnav .HnavDiv {
     margin: auto;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .Hnav .HnavDiv .HnavList {
     height: 100%;
     width: 100%;
-    display: flex;
     color: rgba(3, 65, 28, 0.746);
     font-size: 0.8rem;
+    margin-left: 800px;
 }
 
 .Hnav .HnavDiv .HnavList li {
-    margin-right: 10px;
+    display: inline-block;
+    text-align: right;
 }
 
 .Hnav .HnavDiv .HnavList li:hover {

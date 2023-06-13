@@ -1,40 +1,108 @@
-html, .body{
-    margin: 100;
-    padding: 100;
+html,
+.body {
+    margin: 0;
+    padding: 0;
 }
 
-.body{
+.body {
+    margin-top: 110px;
     width: 100%;
     letter-spacing: 0.03em;
     line-height: 1.5;
     background-color: rgba(251, 17, 251, 0.362);
 }
 
-h1{
-    font-size: 30px;
+h1 {
+    font-size: 40px;
     color: black;
     text-align: left;
-    font-weight: 100;
+    font-weight: 150px;
 }
 
-h2{
+h2 {
     font-size: 25px;
     color: black;
     text-align: left;
     font-weight: 100;
 }
 
-.container{
-    height: 500px;
+.body .container {
+    height: 1800px;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
+    flex-direction: column;
+    justify-content: left;
     background-color: rgba(143, 43, 143, 0.362);
 }
 
-img{
-    width: 100px;
-    height: 100px;
+.body .container .carousel {
+    width: 100%;
+    height: 700px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    /* Oculta la barra de desplazamiento vertical */
+    white-space: nowrap;
+    background-color: #f0f0f0;
+}
+
+.body .container .carousel .carousel-inner {
+    display: inline-block;
+}
+
+.body .container .carousel .carousel-inner .elemento {
+    display: inline-block;
+    width: 300px;
+    /* Ajusta el ancho de cada elemento según tus necesidades */
+    height: auto;
+    /* Ajusta la altura según tus necesidades */
+    background-color: #f0f0f0;
+    /* Estilo de ejemplo */
+    margin-right: 200px;
+    /* Espaciado entre elementos */
+}
+
+.body .container .carousel .elemento img {
+    width: 500px;
+    height: 400px;
+}
+
+.body .container .main_principal {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.body .container .main_galeria {
+    margin-top: 80px;
+    margin-bottom: 200px;
+    margin-left: 25%;
+    display: flex;
+    width: 50%;
+    height: 430px;
+}
+
+.body .container .main_galeria img {
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s;
+}
+
+.body .container .main_galeria img:hover {
+    cursor: crosshair;
+    width: 200px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.body .container .video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura según tus necesidades*/
+}
+
+.body .container .video iframe {
+    max-width: 100%;
+    max-height: 100%;
 }
