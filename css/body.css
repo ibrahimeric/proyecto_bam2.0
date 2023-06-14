@@ -39,7 +39,8 @@ h2 {
     width: 100%;
     height: 1200px;
     overflow-x: auto;
-    overflow-y: hidden; /* Oculta la barra de desplazamiento vertical */
+    overflow-y: hidden;
+    /* Oculta la barra de desplazamiento vertical */
     white-space: nowrap;
     background-color: #f0f0f0;
 }
@@ -50,9 +51,12 @@ h2 {
 
 .body .container .carousel .carousel-inner .elemento {
     display: inline-block;
-    width: 100%; /* Ajusta el ancho de cada elemento según tus necesidades */
-    height: auto; /* Ajusta la altura según tus necesidades */
-    background-color: #217ed5; /* Estilo de ejemplo */
+    width: 100%;
+    /* Ajusta el ancho de cada elemento según tus necesidades */
+    height: auto;
+    /* Ajusta la altura según tus necesidades */
+    background-color: #217ed5;
+    /* Estilo de ejemplo */
 }
 
 .body .container .carousel .elemento img {
@@ -91,9 +95,11 @@ h2 {
 
 .body .container .video {
     background-color: rgba(151, 4, 151, 0.362);
-    height: 100vh; /* Ajusta la altura según tus necesidades*/
+    height: 100vh;
+    /* Ajusta la altura según tus necesidades*/
 }
-.body .container .video .titulo-video{
+
+.body .container .video .titulo-video {
     font-size: 30px;
     margin-top: 50px;
     text-align: center;

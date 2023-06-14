@@ -4,7 +4,7 @@
     height: 80px;
     padding: 1rem 3rem 1rem 3rem;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     align-items: center;
     position: fixed;
     top: 0;

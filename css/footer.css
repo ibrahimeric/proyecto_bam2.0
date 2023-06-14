@@ -55,6 +55,45 @@ ul {
     text-decoration: none;
 }
 
+.footer .sb_footer .sb_footer_links .sb_footer_links_div .icon .iconLista {
+    padding-left: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+
+.footer .sb_footer .sb_footer_links .sb_footer_links_div .icon .iconLista li {
+    margin: 5px;
+}
+
+.footer .sb_footer .sb_footer_links .sb_footer_links_div .icon .iconLista a {
+    background: #2d2d32;
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    display: inline-block;
+    line-height: 50px;
+    transition: all .2s linear;
+    width: 40px;
+    height: 40px;
+    margin-left: 8px;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.footer .sb_footer .sb_footer_links .sb_footer_links_div .icon .iconLista a.facebook:hover {
+    background: #3b5898;
+}
+
+.footer .sb_footer .sb_footer_links .sb_footer_links_div .icon .iconLista a.instagram:hover {
+    background: #ac2bac;
+}
+
+.footer .sb_footer .sb_footer_links .sb_footer_links_div .icon .iconLista a.linkedin:hover {
+    background: #2240af;
+}
+
 .footer .sb_footer .sb_footer_links .sb_footer_links_div hr {
     color: white !important;
     width: 100%;
@@ -82,44 +121,4 @@ ul {
     margin-left: 2rem;
     color: white;
     font-weight: 600;
-}
-
-.iconLista {
-    margin-left: -20px;
-    padding-left: 0;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-}
-
-.iconoLista li{
-    margin-bottom: 4px
-}
-
-.iconLista a {
-    background: #2d2d32;
-    color: rgb(255, 255, 255);
-    font-size: 10px;
-    display: inline-block;
-    line-height: 50px;
-    transition: all .2s linear;
-    width: 40px;
-    height: 40px;
-    margin-left: 8px;
-    border-radius: 100%;
-    background-color: #33353d
-}
-
-.iconLista a.facebook:hover {
-    background: #3b5998;
-}
-
-.iconLista a.instagram:hover {
-    background: #962596;
-}
-
-.iconLista a.twitter:hover {
-    background: #55acee;
 }
