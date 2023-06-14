@@ -1,14 +1,12 @@
 <!-- Escribirán una descripción de su proyecto, actualizaciones o lo que quieran para entender la temática y los caminos que eligieron. -->
 
 
-
 <!-- 
+EL PROYECTO ES PARA SACAR TURNOS ONLINE, MAQUETADO EN HTML Y CSS,
+CON INFRAME Y CARRUSEL.
+ADEMAS SE AGREGA JUEGO DE IMAGENES CON TRANSICIONES E ICONOS
 
-FLEXBOX
-https://flexboxfroggy.com/#es 
+EL OBJETIVO: ES FACILITAR LA ATENCION MEDICA A LA COMUNIDAD
 
-
-PAGINA GUIA
-https://www.tuterapia.com.ar/?gclid=CjwKCAjwyeujBhA5EiwA5WD7_YlPMV8kyO0eu2WhK_5LGDm-thKSNfatzQTuohy-8BzTnUEakLLIMBoClO4QAvD_BwE
-
+VALORES: RESPONSABILIDAD, COMPROMISO, VISION DE FUTURO Y SERVICIO SOCIAL
  -->

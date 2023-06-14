@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/body.css">
@@ -41,12 +40,8 @@
             <div class="container">
                 <div class="carousel">
                     <div class="carousel-inner">
-                        <div class="elemento"><img src="img/doc/1.webp" alt="Img1"></div>
-                        <div class="elemento"><img src="img/doc/1.webp" alt="Img1"></div>
-                        <div class="elemento"><img src="img/doc/1.webp" alt="Img1"></div>
-                        <div class="elemento"><img src="img/doc/1.webp" alt="Img1"></div>
-                        <div class="elemento"><img src="img/doc/1.webp" alt="Img1"></div>
-                        <div class="elemento"><img src="img/doc/1.webp" alt="Img1"></div>
+                        <div class="elemento"><img src="img/portada.png" alt="Img1"></div>
+                        <div class="elemento"><img src="img/portada.png" alt="Img1"></div>
                     </div>
                 </div>
                 <div class="main_principal">
@@ -62,7 +57,12 @@
                     <img src="img/doc/6.webp" alt="Img1">
                 </section>
                 <section class="video">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PH7zmrylITA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="titulo-video">
+                        <h4>¿Porqué es importante realizar un chequeo?</h4>
+                    </div>
+                    <div class="iframe">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/PH7zmrylITA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
                 </section>
             </div>
         </div>
@@ -86,14 +86,13 @@
                     <div class="sb_footer_links_div">
                         <h4 class="footer_titulo">Contacto</h4>
                         <div class='icon'>
-                            <!-- Facebook -->
-                            <i class="fab fa-facebook-f fa-2x" style="color: #3b5998;"></i>
-                            <!-- Twitter -->
-                            <i class="fab fa-twitter fa-2x" style="color: #55acee;"></i>
-                            <!-- Google -->
-                            <i class="fab fa-google fa-2x" style="color: #dd4b39;"></i>
-                            <!-- Instagram -->
-                            <i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i>
+                            <ul class='iconLista'>
+                                <li><a class='facebook' href="https://www.facebook.com/BaJoven/?locale=es_LA" target="_blank"><i
+                                            class="fab fa-facebook-f fa-2x"></i></a></li>
+                                <li><a class='instagram' href="https://www.instagram.com/bajoven/?hl=es" target="_blank"><i
+                                            class="fab fa-instagram fa-2x"></i></a></li>
+                                <li><a class='twitter' href="https://www.linkedin.com/company/bajoven/?originalSubdomain=ar" target="_blank"><i class="fab fa- fa-2x"></i></a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -101,12 +100,10 @@
                 <hr>
 
                 <div class="sb_footer_below">
-                    <div class="sb_footer_copyright">
+                    <div class="sb_footer_below_links">
                         <p>
                             @2023. All right reserverd.
                         </p>
-                    </div>
-                    <div class="sb_footer_below_links">
                         <a href="/terms">
                             <div>
                                 <p>Terms & Conditions</p>

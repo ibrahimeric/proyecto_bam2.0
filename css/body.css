@@ -27,7 +27,7 @@ h2 {
 }
 
 .body .container {
-    height: 1800px;
+    height: 2000px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -37,10 +37,9 @@ h2 {
 
 .body .container .carousel {
     width: 100%;
-    height: 700px;
+    height: 1200px;
     overflow-x: auto;
-    overflow-y: hidden;
-    /* Oculta la barra de desplazamiento vertical */
+    overflow-y: hidden; /* Oculta la barra de desplazamiento vertical */
     white-space: nowrap;
     background-color: #f0f0f0;
 }
@@ -51,19 +50,14 @@ h2 {
 
 .body .container .carousel .carousel-inner .elemento {
     display: inline-block;
-    width: 300px;
-    /* Ajusta el ancho de cada elemento según tus necesidades */
-    height: auto;
-    /* Ajusta la altura según tus necesidades */
-    background-color: #f0f0f0;
-    /* Estilo de ejemplo */
-    margin-right: 200px;
-    /* Espaciado entre elementos */
+    width: 100%; /* Ajusta el ancho de cada elemento según tus necesidades */
+    height: auto; /* Ajusta la altura según tus necesidades */
+    background-color: #217ed5; /* Estilo de ejemplo */
 }
 
 .body .container .carousel .elemento img {
-    width: 500px;
-    height: 400px;
+    width: 100%;
+    height: 700px;
 }
 
 .body .container .main_principal {
@@ -96,13 +90,20 @@ h2 {
 }
 
 .body .container .video {
+    background-color: rgba(151, 4, 151, 0.362);
+    height: 100vh; /* Ajusta la altura según tus necesidades*/
+}
+.body .container .video .titulo-video{
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.body .container .video .iframe {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Ajusta la altura según tus necesidades*/
-}
-
-.body .container .video iframe {
+    margin-top: 50px;
     max-width: 100%;
     max-height: 100%;
 }
